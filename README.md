@@ -1,4 +1,4 @@
-# An Introduction to JMeter
+# Performance Testing with JMeter
 
 This course provides a simple overview of using JMeter.
 
@@ -68,7 +68,7 @@ Use CSVs to drive tests with CSV Data Set Config.
 
 The importance of being able to trace data. 
 
-## writing Groovy scripts
+## Writing Groovy scripts
 Scripts can be used as flexible components.
 
 Will look at how to make a post-processor to get a value and 
