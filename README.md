@@ -3,7 +3,7 @@ This course covers the fundamentals of performance testing with JMeter.
 ## Prerequisites
 You will need a machine with JMeter (and Java) installed which can be downloaded from [here](https://jmeter.apache.org/download_jmeter.cgi)
 
-We will also be looking at some additional plugins from the JMeter Plugins project, so it will be useful if you also install the Plugins Manager which is located [here](https://jmeter-plugins.org/wiki/PluginsManager/)
+We will also be looking at some additional plugins from the [JMeter Plugins](https://jmeter-plugins.org/) project, so it will be useful if you also install the Plugins Manager which is located [here](https://jmeter-plugins.org/wiki/PluginsManager/)
 
 Finally, if you would like to get some early reading in, you could browse the [user manual](https://jmeter.apache.org/usermanual/index.html) or read some of the interesting articles published by [Blazemeter](https://www.blazemeter.com/blog)
 
@@ -29,11 +29,11 @@ Create test plans using
 #### A simple example
 Apply to volunteer at this [example site](https://volunteer-example.herokuapp.com/)
 
-Examples:
+Sample Test Plans:
 
-[manual example](.\plans\apply_to_volunteer_manual.jmx)
+- [manual example](.\plans\apply_to_volunteer_manual.jmx)
 
-[trace example](.\plans\apply_to_volunteer_from trace.jmx)
+- [trace example](.\plans\apply_to_volunteer_from trace.jmx)
 
 #### Which approach works best?
 
@@ -58,8 +58,10 @@ Learn about the key components that make up JMeter.
 ### JMeter Plugins
 
 A set of utilities for making richer tests is provided by the [JMeter Plugins](https://jmeter-plugins.org) project.
-Dummy sampler - good for learning and debugging complex plans
-Custom Thread Groups - good for creating more complex shapes
+
+- Dummy sampler - good for learning and debugging complex plans
+
+- Custom Thread Groups - good for creating more complex shapes
 
 ### Introduction to Other Helper Tools
 
@@ -78,7 +80,7 @@ The importance of being able to trace data.
 ### Writing Groovy scripts
 Scripts can be used as flexible components.
 
-Will look at how to make a post-processor to get a value and 
+Look at how to make a post-processor to apply more complex logic.
 
 ### Designing and Running Tests
 
@@ -87,24 +89,24 @@ Learn about different test types and learn how to design and execute:
 - soak
 - stress
 - spike 
-
-and other test patterns
+- custom patterns
 
 ### Analysis and Reporting 
 
 Capture results and create HTML reports.
 
-Introduce other reporting options.
-
-Graphite/Prometheus/Influxdb/Grafana
-
-PowerBI
+Introduce other reporting options such as:
+- Graphite
+- Prometheus
+- Influxdb
+- Grafana
+- PowerBI
 
 ### Integrating with CI/CD process
 Using Jenkins to execute tests
 
-### Useful links
-
+## Useful links
+The following links will also be useful:
 #### Make jmx files from har files
 https://converter.blazemeter.com/
 
