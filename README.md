@@ -27,11 +27,12 @@ Create test plans using
 - importing cURL/HAR
 
 #### A simple example
-Apply to volunteer at:
-https://volunteer-example.herokuapp.com/
+Apply to volunteer at this [example site](https://volunteer-example.herokuapp.com/)
 
 Examples:
+
 [manual example](.\plans\apply_to_volunteer_manual.jmx)
+
 [trace example](.\plans\apply_to_volunteer_from trace.jmx)
 
 #### Which approach works best?
