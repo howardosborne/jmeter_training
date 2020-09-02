@@ -9,19 +9,14 @@ Finally, if you would like to get some early reading in, you could browse the [u
 
 ## Topics
 ### What performance test tools do (and how they work)
-Solve the problem of how to create the behaviour of large numbers of users without having lots of users or their devices (browsers/smartphones/IoT devices)
+We will look at how performance test tools solve the problem of behaving like large numbers of users without actually having lots of users or their devices (browsers/smartphones/IoT devices)
 
-Usually work by replacing the browser or smartphone with a simpler client which creates the same (usually HTTP) traffic.
+We will examine the potential issues with this approach and how to overcome them.
 
-What are the potential issues with this approach?
-
-How can they be mitigated?
-
-Tools like [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) offer a client view.
+We will also introduce tools like [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) which provide complementary information.
 
 ### Creating Test Plans (scripting)
-
-Create test plans using 
+Learn how to create test plans using 
 - JMeter Recorder 
 - manually
 - importing cURL/HAR
@@ -36,16 +31,14 @@ Sample Test Plans:
 - [trace example](.\plans\apply_to_volunteer_from trace.jmx)
 
 #### Which approach works best?
-
 - Recording tools hampered by technologies designed to prevent security attacks.
 - Manual approach best promotes understanding but requires care
 - Exporting and converting HAR/cURL reasonable compromise
 
 #### Using templates
-Templates provide a good way to get started.
+How templates can provide a good way to get started.
 
 ### Introduction to JMeter components
-
 Learn about the key components that make up JMeter. 
 - controllers
 - samplers
@@ -56,7 +49,6 @@ Learn about the key components that make up JMeter.
 - functions
 
 ### JMeter Plugins
-
 A set of utilities for making richer tests is provided by the [JMeter Plugins](https://jmeter-plugins.org) project.
 
 - Dummy sampler - good for learning and debugging complex plans
@@ -64,15 +56,12 @@ A set of utilities for making richer tests is provided by the [JMeter Plugins](h
 - Custom Thread Groups - good for creating more complex shapes
 
 ### Introduction to Other Helper Tools
-
 How tools like Charles, Fiddler and in-built browser developer tools can help create tests.
 
 ### Understanding Correlations
-
 Learn how to capture, store and return dynamic values.
 
 ### Using Data in Tests
-
 Use CSVs to drive tests with CSV Data Set Config.
 
 The importance of being able to trace data. 
@@ -92,7 +81,6 @@ Learn about different test types and learn how to design and execute:
 - custom patterns
 
 ### Analysis and Reporting 
-
 Capture results and create HTML reports.
 
 Introduce other reporting options such as:
