@@ -27,8 +27,7 @@ Apply to volunteer at this [example site](https://volunteer-example.herokuapp.co
 Sample Test Plans:
 
 - [manual example](.\plans\apply_to_volunteer_manual.jmx)
-
-- [trace example](.\plans\apply_to_volunteer_from trace.jmx)
+- [trace example](.\plans\apply_to_volunteer_from_trace.jmx)
 
 #### Which approach works best?
 - Recording tools hampered by technologies designed to prevent security attacks.
